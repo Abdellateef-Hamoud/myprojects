@@ -9,7 +9,6 @@ import { MoviesComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
-import { TvShowComponent } from './tv-show/tv-show.component';
 import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MovieDetailsComponent } from './product-details/product-details.component';
@@ -22,7 +21,6 @@ import { MovieDetailsComponent } from './product-details/product-details.compone
     MoviesComponent,
     FooterComponent,
     NotFoundComponent,
-    TvShowComponent,
     AboutComponent,
     ContactUsComponent,
     MovieDetailsComponent

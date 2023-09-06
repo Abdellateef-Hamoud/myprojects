@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { MovieDetailsComponent } from './product-details/product-details.component';
 import { MoviesComponent } from './products/products.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { TvShowComponent } from './tv-show/tv-show.component';
 
 const routes: Routes = [
   // localhost/movies
@@ -14,7 +13,6 @@ const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'movies',component:MoviesComponent},
   {path:'moviedetails/:id',component:MovieDetailsComponent},
-  {path:'tv',component:TvShowComponent},
   {path:'about',component:AboutComponent},
   {path:'contactus',component:ContactUsComponent},
   {path:'**',component:NotFoundComponent},
